@@ -29,7 +29,7 @@ lines.push['York Place']
 #
 # # 7. Remove 'Edinburgh Park' from the array using it's name
 #
-# lines.delete['Edinburgh Park']
+lines.delete['Edinburgh Park']
 #
 # # 8. Delete 'Edinburgh Park' from the array by index
 #
