@@ -119,7 +119,7 @@ puts users["Erik"][:favourite_numbers].min
 #
 # # 6. Add the number `7` to Erik's favorite numbers
 #
-#
+puts users["Erik"][:favourite_numbers].push(7)
 #
 # # 7. Change Erik's hometown to Edinburgh
 #
