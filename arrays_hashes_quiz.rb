@@ -127,6 +127,6 @@ users["Erik"][:home_town] = "Edinburgh"
 #
 # # 8. Add a pet dog to Erik called "Fluffy"
 #
-# Eric[:pets] =
+users["Erik"][:pets]["Fluffy"][:dog]
 #
 # # 9. Add yourself to the users hash
