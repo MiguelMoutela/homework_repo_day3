@@ -25,7 +25,7 @@ lines.unshift['Airport']
 #
 # # 6. Add 'York Place' to the end of the array
 #
-# lines.push['York Place']
+lines.push['York Place']
 #
 # # 7. Remove 'Edinburgh Park' from the array using it's name
 #
