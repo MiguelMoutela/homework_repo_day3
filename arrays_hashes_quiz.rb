@@ -33,7 +33,7 @@ lines.delete['Edinburgh Park']
 #
 # # 8. Delete 'Edinburgh Park' from the array by index
 #
-# lines.delete_at['1']
+lines.delete_at(1)
 #
 # # 9. Reverse the positions of the stops in the array
 #
