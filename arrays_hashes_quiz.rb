@@ -8,12 +8,12 @@ puts lines.length()
 
 # 2. Return 'Edinburgh Park' from the array
 
-# puts lines[1]
+puts lines[1]
 #
 # # 3. How many ways can we return 'Princes Street' from the array?
 #
-# puts lines[4]
-# puts lines[-1]
+puts lines[4]
+puts lines[-1]
 #
 # # 4. Work out the index position of 'Haymarket'
 #
