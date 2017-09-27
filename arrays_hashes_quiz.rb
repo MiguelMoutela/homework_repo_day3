@@ -16,10 +16,10 @@ puts lines[4]
 puts lines[-1]
 #
 # # 4. Work out the index position of 'Haymarket'
+
+puts lines.index('Haymarket')
 #
-# puts lines.index['Haymarket']
-#
-# # 5. Add 'Airport' to the start of the array
+# # # 5. Add 'Airport' to the start of the array
 #
 # lines.shift['Airport']
 #
