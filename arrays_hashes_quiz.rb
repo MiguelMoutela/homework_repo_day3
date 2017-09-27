@@ -61,7 +61,7 @@ my_hash[3] = "Three"
 #
 # # 5. How would you add `{:four => 4}` to the hash?
 #
-# myhash[:four] = 4;
+myhash[:four] = 4
 #
 # ### C. Given the following data structure:
 #
