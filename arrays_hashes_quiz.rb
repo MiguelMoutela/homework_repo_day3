@@ -21,7 +21,7 @@ puts lines.index('Haymarket')
 #
 # # # 5. Add 'Airport' to the start of the array
 #
-# lines.shift['Airport']
+lines.unshift['Airport']
 #
 # # 6. Add 'York Place' to the end of the array
 #
