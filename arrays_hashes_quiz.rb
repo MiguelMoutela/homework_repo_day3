@@ -123,7 +123,7 @@ puts users["Erik"][:favourite_numbers].push(7)
 #
 # # 7. Change Erik's hometown to Edinburgh
 #
-# Eric[:home_town] = "Edinburgh"
+users["Erik"][:home_town] = "Edinburgh"
 #
 # # 8. Add a pet dog to Erik called "Fluffy"
 #
