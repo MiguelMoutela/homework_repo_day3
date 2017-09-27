@@ -37,7 +37,7 @@ lines.delete_at(1)
 #
 # # 9. Reverse the positions of the stops in the array
 #
-# lines.reverse()
+lines.reverse()
 #
 # ### B. Given the following data structure:
 #
