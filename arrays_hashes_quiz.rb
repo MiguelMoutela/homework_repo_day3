@@ -14,6 +14,10 @@
 # #
 # lines[4]
 # lines[-1]
+#lines.last()
+#lines.pop()
+#lines.fetch(4)
+#lines[lines.length()-1]
 # #
 # # # 4. Work out the index position of 'Haymarket'
 #
@@ -22,6 +26,7 @@
 # # # # 5. Add 'Airport' to the start of the array
 # #
 # lines.unshift['Airport']
+#lines.insert(0, "Airport")
 # #
 # # # 6. Add 'York Place' to the end of the array
 # #
@@ -46,6 +51,7 @@
 # # # 1. How would you return the string `"One"`?
 # #
 # my_hash[1]
+# my_hash.values_at(1) - return array! could add more numbers to it ie my_hash.values_at(1, 2, 3, etc)
 # #
 # # # 2. How would you return the string `"Two"`?
 # #
@@ -58,7 +64,7 @@
 # # # 4. How would you add `{3 => "Three"}` to the hash?
 # #
 # my_hash[3] = "Three"
-# #
+# my_hash[3] << "Three"
 # # # 5. How would you add `{:four => 4}` to the hash?
 # #
 # myhash[:four] = 4
@@ -112,7 +118,8 @@ puts users["Erik"][:favourite_numbers]
 # # 4. Return the type of Avril's pet Colin
 #
 puts users["Avril"][:pets]["colin"]
-#
+# could also use .class on the end of this command -
+#would return the class string as "snake" is a string
 # # 5. Return the smallest of Erik's favorite numbers
 #
 puts users["Erik"][:favourite_numbers].min
@@ -120,6 +127,9 @@ puts users["Erik"][:favourite_numbers].min
 # # 6. Add the number `7` to Erik's favorite numbers
 #
 puts users["Erik"][:favourite_numbers].push(7)
+puts users["Erik"][:favourite_numbers] << (7)
+puts users["Erik"][:favourite_numbers].unshift(7)
+puts users["Erik"][:favourite_numbers].insert(0, 7)
 #
 # # 7. Change Erik's hometown to Edinburgh
 #
@@ -127,7 +137,22 @@ users["Erik"][:home_town] = "Edinburgh"
 #
 # # 8. Add a pet dog to Erik called "Fluffy"
 #
-users["Erik"][:pets]["Fluffy"][:dog]
+
+#adds fluffy the dog
+users["Erik"][:pets]["Fluffy"] = :dog
+
+#erases the old hash of animals and creates a new one
+users["Erik"][:pets]{
+  "Fluffy" => :dog,
+  "Steven" => :goldfish,
+}
 #
 # # 9. Add yourself to the users hash
-users["Miguel"]
+users["Miguel"] = {
+  :twitter => "miguelm",
+  :favourite_numbers => [13, 0, 1],
+  :home_town => "Alva",
+  :pets => {
+    "Timothy" => :tarantula # last one in the hash does not need commer!
+  }
+}
